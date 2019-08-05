@@ -21,28 +21,12 @@ body {
 	padding-top: 5px;
 	display: block;
 }
-#carouselExampleIndicators {
-	width: 100%;
-}
 .top {
 	background-color: black;
 	display: block;
 	margin: 0;
 }
-nav ul {
-	margin: 0;
-	text-align: center;
-}
-nav li {
-	margin: 0;
-	display: inline-block;
-	padding: 1.5em;
-}
-nav li a {
-	color: whitesmoke;
-}
 .main {
-	height: 700px;
 	width: 75%;
 	display: block;
 	margin: auto;
@@ -80,6 +64,9 @@ nav li a {
 	letter-spacing: 1px;
 	padding-bottom: 20px;
 }
+.info-title {
+	font-weight: bold;
+}
 .info-left {
 	color: whitesmoke;
 	display: block;
@@ -90,18 +77,41 @@ nav li a {
 	display: block;
 	float: right;
 }
-#explore {
+button {
 	height: 50px;
 	width: 100px;
-	margin: 30px auto;
+	/*margin: 30px auto;*/
 	font-family: 'Blinker', sans-serif;
 	color: #d1d1e0;
 	border-color: #d1d1e0;
 	background-color: transparent;
 	transition: background-color 1000ms, color 1000ms;
 }
-#explore:hover {
+button:hover {
 	 background-color: rgba(255,255,255,1);
     color: #222;
     cursor: pointer; 
+}
+p {
+	color: whitesmoke;
+}
+ul li {
+	list-style: none;
+}
+nav ul {
+	margin: 0;
+	text-align: center;
+}
+nav li {
+	margin: 0;
+	display: inline-block;
+	padding: 1.5em;
+}
+nav li a {
+	color: whitesmoke;
+}
+.carousel-control-prev, .carousel-control-next {
+	position: absolute;
+	bottom: 50%; 
+	display: inline-block;
 }
