@@ -1,0 +1,590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"info",
+				"info-right"
+			],
+			[
+				"ali",
+				"text-align\tproperty"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"le",
+				"letter-spacing\tproperty"
+			],
+			[
+				"word",
+				"word-spacing\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"color",
+				"color-burn\tbackground-blend-mode"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"back",
+				"background-size\tproperty"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"i",
+				"initial\tfont-weight"
+			],
+			[
+				"spac",
+				"word-spacing\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"colo",
+				"color-burn\tbackground-blend-mode"
+			],
+			[
+				"l",
+				"lighten\tbackground-blend-mode"
+			],
+			[
+				"s",
+				"screen\tbackground-blend-mode"
+			],
+			[
+				"d",
+				"darken\tbackground-blend-mode"
+			],
+			[
+				"f",
+				"fantasy\tfont-family"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"ser",
+				"sans-serif\tfont-family"
+			],
+			[
+				"random",
+				"randomQuote"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"handle",
+				"handleClick"
+			],
+			[
+				"ran",
+				"randomQuote"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"branch",
+				"Branches"
+			],
+			[
+				"hand",
+				"handleClick"
+			],
+			[
+				"bran",
+				"Branches"
+			],
+			[
+				"camp",
+				"Campaigner"
+			],
+			[
+				"getele",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"Reac",
+				"ReactDOM"
+			],
+			[
+				"react",
+				"react-dom"
+			],
+			[
+				"getELe",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"getElem",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"user",
+				"userChoices"
+			],
+			[
+				"get",
+				"getChoice"
+			],
+			[
+				"spa",
+				"border-spacing\tproperty"
+			],
+			[
+				"btn",
+				"btn-outline-info"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"navbar-n",
+				"navbar-inverse"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"boots",
+				"bootstrapcdn"
+			],
+			[
+				"bo",
+				"bootstrap"
+			],
+			[
+				"st",
+				"stylesheet"
+			],
+			[
+				"m",
+				"margin\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"borders",
+				"border-style\tproperty"
+			],
+			[
+				"cur",
+				"cursive\tfont-family"
+			],
+			[
+				"h",
+				"head\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/javascript.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Javscript.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Javscript.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"Java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/ssb-1.0"
+	],
+	"file_history":
+	[
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/ssb-1.0/src/components/NavBar.js",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/ssb-1.0/src/App.js",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/ssb-1.0/public/index.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/ssb-1.0/public/about.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/SSB 1.0/style.css",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/SSB 1.0/index.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/SSB 1.0/about.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/SSB 1.0/test.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/modern-homepage/style.css",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB Remakes/SSB 1.0/home.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB remake/style.css",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/SSB remake/home.html",
+		"/Users/joeyhua/Desktop/WEB-PROJECTS/modern-homepage/modern-homepage.html",
+		"/Users/joeyhua/Desktop/home.html",
+		"/Users/joeyhua/Desktop/style.css",
+		"/Users/joeyhua/Desktop/modern-homepage/modern-homepage.html",
+		"/Users/joeyhua/Desktop/modern-homepage/style.css",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/Packages/Browser Refresh/Default (OSX).sublime-keymap",
+		"/Users/joeyhua/Desktop/modern-homepage.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/Packages/User/Javascript.sublime-build",
+		"/Users/joeyhua/Desktop/yangster/terminal.glue",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/Users/joeyhua/Desktop/yangster/public/index.html",
+		"/Users/joeyhua/Desktop/yangster/src/App.js",
+		"/Users/joeyhua/Desktop/yangster/src/style.css",
+		"/Users/joeyhua/Desktop/yangster/src/App.css",
+		"/Users/joeyhua/Desktop/yangster/src/components/Button.js",
+		"/Users/joeyhua/Desktop/yangster/src/components/quotes.js",
+		"/Users/joeyhua/Desktop/yangster/src/MatterTest.js",
+		"/Users/joeyhua/Desktop/yangster/src/components/Yang.js",
+		"/Users/joeyhua/Desktop/yangster/public/style_campaigner.css",
+		"/Users/joeyhua/Desktop/campaigner/src/components/Prompt.js",
+		"/Users/joeyhua/Desktop/campaigner/src/components/info.js",
+		"/Users/joeyhua/Desktop/campaigner/src/components/Header.js",
+		"/Users/joeyhua/Desktop/campaigner/src/index.js",
+		"/Users/joeyhua/Desktop/campaigner/src/style.css",
+		"/Users/joeyhua/Desktop/campaigner/public/index.html",
+		"/Users/joeyhua/Desktop/campaigner/public/style_campaigner.css",
+		"/Users/joeyhua/Desktop/campaigner/src/components/Parties.js",
+		"/Users/joeyhua/Desktop/campaigner/src/components/Branches.js",
+		"/Users/joeyhua/Desktop/campaigner/src/infoData.js",
+		"/Users/joeyhua/Desktop/test-app/src/components/Prompt.js",
+		"/Users/joeyhua/Desktop/test-app/src/App.js",
+		"/Users/joeyhua/Desktop/test-app/public/index.html",
+		"/Users/joeyhua/Desktop/test-app/src/components/Header.js",
+		"/Users/joeyhua/Desktop/test-app/src/components/Branches.js",
+		"/Users/joeyhua/Desktop/test-app/src/components/Parties.js",
+		"/Users/joeyhua/Desktop/test-app/src/components/Years.js",
+		"/Users/joeyhua/Desktop/test-app/src/index.js",
+		"/Users/joeyhua/Desktop/test-app/src/index.css",
+		"/Users/joeyhua/Desktop/test-app/public/campaigner.html",
+		"/Users/joeyhua/Desktop/test-app/src/App.css",
+		"/Users/joeyhua/Desktop/test-app/public/choices.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/my-app/choices.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/choices.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/my-app/src/App.test.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/update.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/my-app/src/App.css",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/campaigner.html",
+		"/Users/joeyhua/Desktop/campaigner/update.js",
+		"/Users/joeyhua/Desktop/campaigner/campaigner.html",
+		"/Users/joeyhua/Desktop/campaigner/my-app/src/App.js",
+		"/Users/joeyhua/Desktop/1400x1400 Everybody Album Art (Highest Quality) _ Logic_301.htm",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/webpack.config.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/src/index.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/dist/index.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/.babelrc",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/app/index.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/app/index.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/package.json",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/node_modules/babel-loader/lib/index.js",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/app/components/App.js",
+		"/Users/joeyhua/.Trash/campaigner.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/party.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/style_campaigner.css",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/Packages/User/javascript.sublime-build",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner/executive-year.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/legislative-year.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/executive-year.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/party.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/branch.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/campaigner.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/style_campaigner.css",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/home.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/main.css",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/candidates.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/learning.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/shopping.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/gaming.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/page3.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/page2.html",
+		"/Users/joeyhua/Library/Application Support/Sublime Text 3/page2"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 80.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 30.0
+	},
+	"pinned_build_system": "Packages/User/Javascript.sublime-build",
+	"project": "ssb-1.0.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

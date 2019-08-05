@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo|Beth+Ellen|Blinker|Crimson+Pro|Dosis|Farro|Fira+Sans|Grenze|Heebo|Inconsolata|Lato|Lora|Merriweather|Montserrat|Muli|Nanum+Gothic|Noto+Sans|Noto+Sans+JP|Noto+Sans+KR|Noto+Serif|Nunito|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Narrow|PT+Serif|Playfair+Display|Quicksand|Red+Hat+Display|Red+Hat+Text|Roboto|Roboto+Condensed|Roboto+Slab|Rubik|Saira+Stencil+One|Slabo+27px|Titillium+Web|Ubuntu|Work+Sans&display=swap");
+* {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+body {
+	height: 518px;
+}
+.contain {
+	background-size: cover;
+	background-position: center;
+	background-color: #3939ac;
+	background-image: url(./img/court.jpg);
+	background-blend-mode: color;
+	opacity: 0.95;
+}
+#logo {
+	height: 80px;
+	width: 90px;
+	margin: auto;
+	padding-top: 5px;
+	display: block;
+}
+#carouselExampleIndicators {
+	width: 100%;
+}
+.top {
+	background-color: black;
+	display: block;
+	margin: 0;
+}
+nav ul {
+	margin: 0;
+	text-align: center;
+}
+nav li {
+	margin: 0;
+	display: inline-block;
+	padding: 1.5em;
+}
+nav li a {
+	color: whitesmoke;
+}
+.main {
+	height: 700px;
+	width: 75%;
+	display: block;
+	margin: auto;
+}
+.title-main {
+	color: white;
+	font-size: 55pt;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	line-height: 1;
+	margin-bottom: 30px;
+	padding-top: 10%;
+	letter-spacing: 2px;
+}
+.title {
+	color: white;
+	font-family: 'Blinker', sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	line-height: 1;
+	margin-bottom: 30px;
+	padding-top: 5%;
+	letter-spacing: 2px;
+}
+.subtitle {
+	color: #a3a3c2;
+	font-family: 'Blinker', sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+.info-left {
+	color: whitesmoke;
+	display: block;
+	float: left;
+}
+.info-right {
+	color: whitesmoke;
+	display: block;
+	float: right;
+}
+#explore {
+	height: 50px;
+	width: 100px;
+	margin: 30px auto;
+	font-family: 'Blinker', sans-serif;
+	color: #d1d1e0;
+	border-color: #d1d1e0;
+	background-color: transparent;
+	transition: background-color 1000ms, color 1000ms;
+}
+#explore:hover {
+	 background-color: rgba(255,255,255,1);
+    color: #222;
+    cursor: pointer; 
+}
