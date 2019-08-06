@@ -2,6 +2,7 @@
 * {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
+	color: whitesmoke;
 }
 .contain {
 	background-image: url(./img/court.jpg);
@@ -59,18 +60,28 @@
 	text-align: center;
 	display: block;
 	letter-spacing: 1px;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
 }
 .info-title {
 	font-weight: bold;
 }
-.info {
-	color: whitesmoke;
-}
 .about-img {
-	float: right;
-	width: 200px;
-	height: 200px;	
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+.about-blurb {
+	position: absolute;
+	top: 6em; left: 3em; right: 3em;
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+/* improve the about-blurb media query */
+@media(min-width: 700px) {
+	.about-img, .about-blurb {
+		width: 50%;
+	}
 }
 .sign-up-img {
 	float: right;
@@ -112,9 +123,6 @@ button:hover {
 		right: 200px;
 	}
 }
-p {
-	color: whitesmoke;
-}
 ul li {
 	list-style: none;
 }
@@ -140,7 +148,6 @@ ul li {
 }
 .footer {
 	background-color: rgba(0, 0, 0, 0.9);
-	color: whitesmoke;
 	height: 6.5em;
 }
 .footer-container {
@@ -148,11 +155,13 @@ ul li {
 	text-align: center;
 }
 .footer-title {
-	color: whitesmoke;
 	font-size: 1em;
 }
 .footer-img {
 	width: 50px;
+}
+.carousel-inner {
+	align-items: center;
 }
 .carousel-container {
 	margin-bottom: 300px;
