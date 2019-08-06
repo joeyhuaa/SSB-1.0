@@ -54,15 +54,22 @@
 .info-title {
 	font-weight: bold;
 }
-.info-left {
+.info {
 	color: whitesmoke;
-	display: block;
-	float: left;
+	align-items: center;
 }
-.info-right {
-	color: whitesmoke;
-	display: block;
+.sign-up-img {
 	float: right;
+	width: 200px;
+	height: 200px;
+}
+@media (min-width: 800px) {
+	.info {
+		padding-left: 200px;
+	}
+	.sign-up-img {
+		margin-right: 200px;
+	}
 }
 button {
 	height: 3em;
