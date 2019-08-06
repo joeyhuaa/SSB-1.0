@@ -3,28 +3,15 @@
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 }
-body {
-	height: 518px;
-}
 .contain {
+	background-image: url(./img/court.jpg);
+	background-color: #3939ac;
+	background-blend-mode: color;
 	background-size: cover;
 	background-position: center;
-	background-color: #3939ac;
-	background-image: url(./img/court.jpg);
-	background-blend-mode: color;
 	opacity: 0.95;
-}
-#logo {
-	height: 80px;
-	width: 90px;
-	margin: auto;
-	padding-top: 5px;
-	display: block;
-}
-.top {
-	background-color: black;
-	display: block;
-	margin: 0;
+	min-height: 100%;
+	height: 35em;
 }
 .main {
 	width: 75%;
@@ -33,36 +20,36 @@ body {
 }
 .title-main {
 	color: white;
-	font-size: 55pt;
+	font-size: 4.5em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
 	line-height: 1;
-	margin-bottom: 30px;
+	margin-bottom: 0.75em;
 	padding-top: 10%;
-	letter-spacing: 2px;
+	letter-spacing: 0.05em;
 }
 .title {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 20pt;
+	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
 	line-height: 1;
-	margin-bottom: 30px;
+	margin-bottom: 1em;
 	padding-top: 5%;
-	letter-spacing: 2px;
+	letter-spacing: 0.05em;
 }
 .subtitle {
 	color: #a3a3c2;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 16pt;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
 	letter-spacing: 1px;
-	padding-bottom: 20px;
+	padding-bottom: 2em;
 }
 .info-title {
 	font-weight: bold;
@@ -78,9 +65,8 @@ body {
 	float: right;
 }
 button {
-	height: 50px;
-	width: 100px;
-	/*margin: 30px auto;*/
+	height: 3em;
+	width: 6em;
 	font-family: 'Blinker', sans-serif;
 	color: #d1d1e0;
 	border-color: #d1d1e0;
@@ -105,10 +91,41 @@ nav ul {
 nav li {
 	margin: 0;
 	display: inline-block;
-	padding: 1.5em;
+	padding: .5em;
 }
 nav li a {
 	color: whitesmoke;
+	text-decoration: none;
+	padding: 1.5em;
+	transition: background-color 1000ms, color 1000ms;
+}
+nav li a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 100px;
+	padding: 0.25em 0;
+}
+footer ul li {
+	flex-grow: 1;
+	padding: 0.5em;
+	text-align: end;
+}
+.footer-container {
+	display: flex;
+	align-items: center;
+}
+.footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+.title-footer {
+	color: whitesmoke;
+}
+#carouselExampleIndicators {
+	height: 40em;
 }
 .carousel-control-prev, .carousel-control-next {
 	position: absolute;
