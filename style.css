@@ -18,7 +18,7 @@
 	display: block;
 	margin: auto;
 }
-.title-main {
+.main-title {
 	color: white;
 	font-size: 4.5em;
 	font-weight: bold;
@@ -56,7 +56,11 @@
 }
 .info {
 	color: whitesmoke;
-	align-items: center;
+}
+.about-img {
+	float: right;
+	width: 200px;
+	height: 200px;	
 }
 .sign-up-img {
 	float: right;
@@ -66,6 +70,7 @@
 @media (min-width: 800px) {
 	.info {
 		padding-left: 200px;
+		padding-right: 200px;
 	}
 	.sign-up-img {
 		margin-right: 200px;
@@ -113,26 +118,18 @@ ul li {
 .footer {
 	background-color: rgba(0, 0, 0, 0.9);
 	color: whitesmoke;
-	height: 7.5em;
+	height: 6.5em;
 }
 .footer-container {
-	display: flex;
-	align-items: center;
+	padding: .5em;
+	text-align: center;
 }
-.footer-container ul {
-	flex-grow: 1;
-	text-align: end;
-}
-.title-footer {
+.footer-title {
 	color: whitesmoke;
-	font-size: 2em;
-	padding: 0.5em 1em;
+	font-size: 1em;
 }
-.footer-nav, li a img{
-	padding: 0.5em 0;
-}
-#carouselExampleIndicators {
-	/*height: 40em;*/
+.footer-img {
+	width: 50px;
 }
 .carousel-control-prev, .carousel-control-next {
 	position: absolute;
