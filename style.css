@@ -84,34 +84,29 @@ p {
 ul li {
 	list-style: none;
 }
-nav ul {
+.navigation ul {
 	margin: 0;
 	text-align: center;
 }
-nav li {
+.navigation li {
 	margin: 0;
 	display: inline-block;
 	padding: .5em;
 }
-nav li a {
+.navigation li a {
 	color: whitesmoke;
 	text-decoration: none;
 	padding: 1.5em;
 	transition: background-color 1000ms, color 1000ms;
 }
-nav li a:hover {
+.navigation li a:hover {
 	background-color: rgba(255, 255, 255, 0.5);
 	color: black;
 }
-footer {
+.footer {
 	background-color: rgba(0, 0, 0, 0.9);
-	height: 100px;
-	padding: 0.25em 0;
-}
-footer ul li {
-	flex-grow: 1;
-	padding: 0.5em;
-	text-align: end;
+	color: whitesmoke;
+	height: 7.5em;
 }
 .footer-container {
 	display: flex;
@@ -123,9 +118,14 @@ footer ul li {
 }
 .title-footer {
 	color: whitesmoke;
+	font-size: 2em;
+	padding: 0.5em 1em;
+}
+.footer-nav, li a img{
+	padding: 0.5em 0;
 }
 #carouselExampleIndicators {
-	height: 40em;
+	/*height: 40em;*/
 }
 .carousel-control-prev, .carousel-control-next {
 	position: absolute;
