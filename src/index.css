@@ -34,7 +34,7 @@ p {
 	margin: auto;
 }
 .main-container {
-	background-image: url(./img/court.jpg);
+	background-image: url(court.jpg);
 	background-color: #3939ac;
 	background-blend-mode: color;
 	background-size: cover;
@@ -83,6 +83,10 @@ p {
 }
 .vert-container {
 	padding: 1em 0;
+}
+.video {
+	width: 100%;
+	margin: 10em 0 3em 0;
 }
 .about-img, .blurb {
 	width: 90%;
