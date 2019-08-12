@@ -8,7 +8,6 @@ import Promo from './pages/Promo'
 import Terms from './pages/Terms'
 import Updates from './pages/Updates'
 import Contact from './pages/Contact'
-
 import {
   BrowserRouter as Router, 
   Route, 
@@ -22,7 +21,7 @@ class App extends React.Component {
     return (
       <Router>
         <NavBar />
-        <Route exact path='/home' component={Home} />
+        <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/signup' component={SignUp} />
         <Route exact path='/promo' component={Promo} />
