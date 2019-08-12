@@ -13,6 +13,10 @@ body {
 p {
 	margin: 0;
 }
+.center-text {
+	text-align: center;
+	display: block;
+}
 .logo {
 	width: 70px;
 	height: 40px;
@@ -20,12 +24,19 @@ p {
 .social-media {
 	margin-right: 2em;
 }
+#map {
+	height: 25em;
+	width: 75%;
+	display: block;
+	margin: auto;
+}
 .contain {
 	background-color: whitesmoke;
 	width: 70%;
 	display: block;
-	margin: auto;
+	margin: 2em auto 7em auto;
 	padding: 5em 0;
+	border-radius: 5px;
 }
 .main-container {
 	background-image: url(court.jpg);
@@ -40,7 +51,7 @@ p {
 }
 .main-title {
 	/* color: white; */
-	font-size: 4.5em;
+	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
@@ -64,12 +75,20 @@ p {
 .subtitle {
 	color: #a3a3c2;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
 	letter-spacing: 1px;
 	padding-bottom: 1em;
+}
+@media (min-width: 800px) {
+	.main-title {
+		font-size: 4.5em;
+	}
+	.subtitle {
+		font-size: 1.5em;
+	}
 }
 .info-title {
 	font-weight: bold;
@@ -80,7 +99,7 @@ p {
 .video {
 	width: 75%;
 	display: block;
-	margin: 10em auto;
+	margin: 1em auto;
 }
 .about-img, .blurb {
 	width: 90%;
