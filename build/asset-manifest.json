@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0d1dccfa.chunk.css",
+    "main.js": "/static/js/main.6de15460.chunk.js",
+    "main.js.map": "/static/js/main.6de15460.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.1678ff04.js",
+    "runtime~main.js.map": "/static/js/runtime~main.1678ff04.js.map",
+    "static/js/2.c1027ef8.chunk.js": "/static/js/2.c1027ef8.chunk.js",
+    "static/js/2.c1027ef8.chunk.js.map": "/static/js/2.c1027ef8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.108f43be21f3b56ac54903e16baaf031.js": "/precache-manifest.108f43be21f3b56ac54903e16baaf031.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0d1dccfa.chunk.css.map": "/static/css/main.0d1dccfa.chunk.css.map",
+    "static/media/index.css": "/static/media/court.f7966599.jpg"
+  }
+}

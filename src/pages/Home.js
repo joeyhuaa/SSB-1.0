@@ -4,7 +4,7 @@ function Home() {
   return (
 		<div className="main-container">
 			<div className="contain">
-				<span className="main-title">SSB BASKETBALL ACADEMY</span>
+				<span className="main-title">Super BASKETBALL ACADEMY</span>
 				<span className="subtitle">where learning feels like playing</span>
 			</div>
 			<div className="contain">
