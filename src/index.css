@@ -21,6 +21,25 @@ p {
 .logo {
 	width: 70px;
 	height: 40px;
+	display: none;
+}
+.super-splash-bros {
+	color: red;
+	font-family: 'Montserrat900', sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+.super-splash-bros:hover {
+	color: red;
+	text-decoration: none;
+}
+@media (min-width: 1000px) {
+	.logo {
+		display: block;
+	}
+	.super-splash-bros {
+		display: none;
+	}
 }
 .social-media {
 	margin-right: 2em;
@@ -51,7 +70,6 @@ p {
 	min-height: 100%;
 }
 .main-title {
-	/* color: white; */
 	font-size: 2.5em;
 	font-weight: bold;
 	text-align: center;
@@ -62,7 +80,6 @@ p {
 	letter-spacing: 0.05em;
 }
 .title {
-	/* color: white; */
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
@@ -119,7 +136,6 @@ p {
 .about-img {
 	padding: 0.5em 0;
 }
-/* improve the about-blurb media query */
 @media(min-width: 700px) {
 	.about-img, .blurb {
 		width: 50%;
@@ -190,9 +206,7 @@ button {
 }
 .btn-schedule:hover, 
 .btn-submit:hover {
-	/* background-color: rgba(255,255,255,1); */
 	background-color: black;
-	 /* color: #222; */
 	color: white;
   cursor: pointer; 
 }

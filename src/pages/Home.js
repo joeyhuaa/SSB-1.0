@@ -1,4 +1,5 @@
 import React from "react"
+import MapContainer from '../components/MapContainer.js'
 
 function Home() {
   return (
@@ -15,10 +16,10 @@ function Home() {
 				<span className="subtitle">Weekday and Weekend Classes</span>
 				<span className="subtitle">Year-Round in Fremont, CA</span>
 				<span className="center-text">33955 Emilia Ln, Fremont, CA 94555</span>
-				<div id="map"></div>
+				<div id="map"><MapContainer /></div>
 			</div>
 		</div>
-  )
+	)
 }
 
 export default Home
