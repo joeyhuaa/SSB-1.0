@@ -6,12 +6,12 @@ function Contact() {
       <div className="contain">
         <span className="title">CONTACT US</span>
         <span className="subtitle">Leave us a message!</span>
-        <form>
-          <input type="text" name="name" className="input" placeholder="Your name..."></input>
-          <input type="text" name="email" className="input" placeholder="Your email..."></input>
-          
-          <textarea className="input message-box" placeholder="Your message..." ></textarea>
-          <button className="btn-submit">SUBMIT</button>
+        <form action="contact.php">
+          <input type="text" name="name" className="input" placeholder="Your name"></input>
+          <input type="text" name="email" className="input" placeholder="Your email"></input>
+          <input type="text" name="subject" className="input" placeholder="Subject"></input>
+          <textarea type="text" name="message" className="input message-box" placeholder="Your message" ></textarea>
+          <button type="submit" name="submit" className="btn-submit">SUBMIT</button>
         </form>
       </div>
     </div>

@@ -11,10 +11,7 @@ import Updates from './pages/Updates'
 import Contact from './pages/Contact'
 import {
   BrowserRouter as Router, 
-  Route, 
-  Switch, 
-  Link,
-  Redirect
+  Route
 } from 'react-router-dom'
 
 class App extends React.Component {
