@@ -4,7 +4,7 @@ function Contact() {
   return (
     <div className="main-container">
       <div className="contain">
-        <span className="title">CONTACT US</span>
+        <span className="main-title">CONTACT US</span>
       </div>
       <div className="white-contain">
         <span className="subtitle">Leave us a message!</span>

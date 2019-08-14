@@ -16,7 +16,7 @@ function SignUp() {
 					<li className="list-blurb">x1 Class Per Week ($25 each)</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<br></br>
-					<a href="https://app.punchpass.com/org/3239/passes/49512" target="_blank"><button className="btn-black btn-buy">BUY NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49512" target="_blank"><button className="btn-black btn-buy">REGISTER</button></a>
 					<a href="https://app.punchpass.com/org/3239/classes" target="_blank"><button className="btn-black btn-schedule">SCHEDULE</button></a>
 				</ul>
 			</div>
@@ -31,7 +31,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<br></br>
-					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-white btn-buy">BUY NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-white btn-buy">REGISTER</button></a>
 					<a href="https://app.punchpass.com/org/3239/classes" target="_blank"><button className="btn-white btn-schedule">SCHEDULE</button></a>
 				</ul>
 			</div>
@@ -47,7 +47,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
 					<br></br>
-					<a href="https://app.punchpass.com/org/3239/passes/49640" target="_blank"><button className="btn-black btn-buy">BUY NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49640" target="_blank"><button className="btn-black btn-buy">REGISTER</button></a>
 					<a href="https://app.punchpass.com/org/3239/classes" target="_blank"><button className="btn-black btn-schedule">SCHEDULE</button></a>
 				</ul>
 			</div>
@@ -63,7 +63,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
 					<br></br>
-					<a href="https://app.punchpass.com/org/3239/passes/49641" target="_blank"><button className="btn-white btn-buy">BUY NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49641" target="_blank"><button className="btn-white btn-buy">REGISTER</button></a>
 					<a href="https://app.punchpass.com/org/3239/classes" target="_blank"><button className="btn-white btn-schedule">SCHEDULE</button></a>
 				</ul>
 			</div>

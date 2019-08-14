@@ -4,7 +4,7 @@ function Updates() {
 	return (
 		<div className="main-container">
 			<div className="contain">
-				<span className="title">UPDATES</span>
+				<span className="main-title">UPDATES</span>
 			</div>
 		</div>
 	)
