@@ -7,7 +7,7 @@
 
     $mailTo = "mike@ssbbasketball.com";
     $headers = "From: ".$mailFrom;
-    $txt = "New message from ".$name."\n\n".$message;
+    $txt = "New message from ".$name.".\n\n".$message;
 
     mail($mailTo, $subject, $txt, $headers);
     header("Location: contact.php?mailsend");

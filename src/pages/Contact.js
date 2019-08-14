@@ -8,11 +8,11 @@ function Contact() {
       </div>
       <div className="white-contain">
         <span className="subtitle">Leave us a message!</span>
-        <form action="contact.php">
-          <input type="text" name="name" className="input" placeholder="Your name"></input>
-          <input type="text" name="email" className="input" placeholder="Your email"></input>
-          <input type="text" name="subject" className="input" placeholder="Subject"></input>
-          <textarea type="text" name="message" className="input message-box" placeholder="Your message" ></textarea>
+        <form method="POST" data-netlify="true">
+          <input type="text" name="name" className="input" placeholder="Your name" required></input>
+          <input type="text" name="email" className="input" placeholder="Your email" required></input>
+          <input type="text" name="subject" className="input" placeholder="Subject" required></input>
+          <textarea name="message" className="input message-box" placeholder="Your message" required></textarea>
           <button type="submit" name="submit" className="btn-black btn-submit">SUBMIT</button>
         </form>
       </div>
