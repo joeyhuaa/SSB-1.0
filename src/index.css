@@ -127,9 +127,10 @@ p {
 	padding-right: 2em;
 }
 .sign-up-img {
-	float: right;
-	width: 100px;
-	height: 100px;
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
 }
 .first {
 	border: none;
@@ -169,7 +170,7 @@ p {
 .btn-schedule {
 	display: block;
 	float: right;
-	margin-right: 1em;
+	/* margin-right: 1em; */
 }
 .btn-buy:hover {
 	background-color: #ff66ff;
@@ -220,8 +221,7 @@ ul li {
 	}
 	.sign-up-img {
 		margin-right: 150px;
-		width: 200px;
-		height: 200px;
+		float: right;
 	}
 	.btn-schedule {
 		margin-right: 50px;
@@ -249,5 +249,8 @@ ul li {
 	.about-img, .blurb {
 		width: 50%;
 	}
+}
+@media (min-width: 400px) {
+
 }
 

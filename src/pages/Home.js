@@ -5,8 +5,8 @@ function Home() {
   return (
 		<div className="main-container">
 			<div className="contain">
-				<span className="main-title" style={{margin:"0"}}>SUPER SPLASH BROS</span> 
-				<span className="title">BASKETBALL ACADEMY</span>
+				<span className="main-title" style={{margin:"0", padding:"0"}}>SUPER SPLASH BROS</span> 
+				<span className="title" style={{margin:"0", padding:"10px"}}>BASKETBALL ACADEMY</span>
 				<span className="subtitle">where learning feels like playing</span>
 			</div>
 			<div className="white-contain">
