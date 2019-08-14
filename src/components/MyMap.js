@@ -5,9 +5,10 @@ import '../index.css'
 class MyMap extends React.Component {
   render() {
     let styles = {
-      height: '60%',
-      width: '40%',
+      height: '75%',
+      width: '75%',
       borderRadius: '5px',
+      paddingRight: '0'
     }
     return (
       <Map
@@ -16,7 +17,7 @@ class MyMap extends React.Component {
         initialCenter={{lat: 37.573168, lng: -122.052285}}
         style={styles}
       >
-      <Marker position={{lat: 37.573168, lng: -122.052285}} />
+        <Marker position={{lat: 37.573168, lng: -122.052285}} />
       </Map>
     )
   }
