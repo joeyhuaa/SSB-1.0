@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 function NavBar() {
 	var styles = {
 		backgroundColor: "whitesmoke",
-		width: "100%"
-		// height: "4em"
+		width: "100%",
+		marginBottom: "0px"
 	}
 	return (
 		<div className="nav-container">

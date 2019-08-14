@@ -10,6 +10,14 @@ html {
 }
 body {
 	height: 100%;
+	background-image: url(court.jpg);
+	background-color: #3939ac;
+	background-blend-mode: color;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.95;
+	min-height: 100%;
 }
 p {
 	margin: 0;
@@ -47,26 +55,18 @@ p {
 	color: whitesmoke;
 	width: 70%;
 	display: block;
-	margin: 2em auto 7em auto;
-	padding: 5em 0;
+	margin: 15em auto 20em auto;
 }
 .white-contain {
 	background-color: whitesmoke;
 	color: black;
 	display: block;
 	margin: 2em auto 7em auto;
-	padding: 5em 15% 7.5em 15%;
+	padding: 15em 15% 15em 15%;
 }
 .main-container {
-	background-image: url(court.jpg);
-	background-color: #3939ac;
-	background-blend-mode: color;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	opacity: 0.95;
-	padding: 10em 0 50em 0;
-	min-height: 100%;
+	padding-top: 5em;
+	padding-bottom: 50em;
 }
 .main-title {
 	font-size: 1em;
@@ -75,7 +75,6 @@ p {
 	display: block;
 	line-height: 1;
 	margin-bottom: 0.75em;
-	padding-top: 10%;
 	letter-spacing: 0.05em;
 }
 .title {
@@ -109,7 +108,7 @@ p {
 	padding: 1em 0;
 }
 .video {
-	width: 75%;
+	width: 100%;
 	display: block;
 	margin: 1em auto;
 }
@@ -134,15 +133,22 @@ p {
 .first {
 	border: none;
 }
-button {
-	height: 3em;
-	width: 6em;
+.btn-white {
+	color: #d1d1e0;
+	border-color: #d1d1e0;
+}
+.btn-black {
+	color: black;
+	border-color: black;
+}
+.btn-schedule,
+.btn-buy,
+.btn-submit {
+	height: 5em;
+	width: 7.5em;
 	margin-top: 1.1em;
 	font-family: 'Blinker', sans-serif;
-	text-align: center;
-	/* color: #d1d1e0; */
-	/* border-color: #d1d1e0; */
-	border-color: black;
+	font-size: .5em;
 	border-radius: 2.5px;
 	background-color: transparent;
 	transition: background-color 200ms, color 200ms;
@@ -178,7 +184,8 @@ ul li {
 	border-radius: 2.5px;
 	display: block;
 	margin: .75em auto;
-	width: 17em;
+	width: 12em;
+	padding: 10px 10px;
 }
 .message-box {
 	height: 10em;
@@ -194,10 +201,10 @@ ul li {
 	}
 }
 @media (min-width: 900px) {
-	.info {
+	/* .info {
 		padding-left: 150px;
 		padding-right: 150px;
-	}
+	} */
 	.sign-up-img {
 		margin-right: 150px;
 		width: 200px;
@@ -218,7 +225,7 @@ ul li {
 		height: 20em;
 	}
 	.main-title {
-		font-size: 4.5em;
+		font-size: 3em;
 	}
 	.title {
 		font-size: 2em;
