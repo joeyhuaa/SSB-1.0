@@ -5,6 +5,7 @@ function NavBar() {
 	var styles = {
 		backgroundColor: "whitesmoke",
 		width: "100%"
+		// height: "4em"
 	}
 	return (
 		<div className="nav-container">
