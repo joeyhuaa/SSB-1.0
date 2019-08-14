@@ -167,10 +167,12 @@ p {
 	background-color: transparent;
 	transition: background-color 200ms, color 200ms;
 }
+.btn-buy {
+	float: right;
+}
 .btn-schedule {
 	display: block;
 	float: right;
-	/* margin-right: 1em; */
 }
 .btn-buy:hover {
 	background-color: #ff66ff;
@@ -182,12 +184,7 @@ p {
 	display: block;
 	margin: auto;
 }
-/* .btn-schedule:hover, 
-.btn-submit:hover {
-	background-color: black;
-	color: white;
-  cursor: pointer; 
-} */
+
 ul li {
 	list-style: none;
 }
@@ -220,8 +217,10 @@ ul li {
 		padding-right: 150px;
 	}
 	.sign-up-img {
-		margin-right: 150px;
-		float: right;
+		vertical-align: top;
+	}
+	.btn-buy {
+		margin-right: 50px;
 	}
 	.btn-schedule {
 		margin-right: 50px;

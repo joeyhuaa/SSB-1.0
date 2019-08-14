@@ -7,7 +7,7 @@ function Home() {
 			<div className="contain">
 				<span className="main-title" style={{margin:"0", padding:"0"}}>SUPER SPLASH BROS</span> 
 				<span className="title" style={{margin:"0", padding:"10px"}}>BASKETBALL ACADEMY</span>
-				<span className="subtitle">where learning feels like playing</span>
+				<span className="subtitle" style={{marginTop:"10px"}}>where learning feels like playing</span>
 			</div>
 			<div className="white-contain">
 				<span className="title">See it for yourself!</span>
