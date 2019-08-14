@@ -5,8 +5,9 @@ import '../index.css'
 class MyMap extends React.Component {
   render() {
     let styles = {
-      height: '25%',
-      width: '25%'
+      height: '60%',
+      width: '40%',
+      borderRadius: '5px',
     }
     return (
       <Map

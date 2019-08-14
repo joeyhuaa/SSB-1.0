@@ -8,7 +8,7 @@ function Home() {
 				<span className="main-title">SSB BASKETBALL ACADEMY</span>
 				<span className="subtitle">where learning feels like playing</span>
 			</div>
-			<div className="contain">
+			<div className="white-contain">
 				<span className="subtitle">See it for yourself!</span>
 				<video className="video" controls src="./vid/ssb-1.mp4"></video>	
 			</div>

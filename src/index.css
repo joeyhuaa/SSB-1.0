@@ -39,16 +39,23 @@ p {
 .map-container {
 	height: 7.5em;
 	width: 75%;
-	display: block;
-	margin: auto;
+	margin: auto; 
+	margin-right: 3%;
+	margin-top: 1em;
 }
 .contain {
-	background-color: whitesmoke;
+	color: whitesmoke;
 	width: 70%;
 	display: block;
 	margin: 2em auto 7em auto;
 	padding: 5em 0;
-	border-radius: 5px;
+}
+.white-contain {
+	background-color: whitesmoke;
+	color: black;
+	display: block;
+	margin: 2em auto 7em auto;
+	padding: 5em 15% 7.5em 15%;
 }
 .main-container {
 	background-image: url(court.jpg);
@@ -132,7 +139,7 @@ button {
 	width: 6em;
 	margin-top: 1.1em;
 	font-family: 'Blinker', sans-serif;
-	font-size: .5em;
+	text-align: center;
 	/* color: #d1d1e0; */
 	/* border-color: #d1d1e0; */
 	border-color: black;

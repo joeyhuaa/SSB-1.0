@@ -10,7 +10,7 @@ function About() {
 				<span className="blurb">2. Structured curriculum, to improve player skills over time</span>
 				<span className="blurb">3. Safety and respect, to foster growth and diversity</span>
 			</div>
-			<div className="contain">
+			<div className="white-contain">
 				<span className="title">OUR PROMISE</span>
 				<span className="blurb">We pride ourselves on your child’s growth and experience. Hence, we promise this will be the funnest, most productive basketball training he or she will receive – ever.</span>
 			</div>
