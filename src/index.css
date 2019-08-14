@@ -59,10 +59,9 @@ p {
 	background-image: url(court.jpg);
 	background-color: #3939ac;
 	background-blend-mode: color;
-	/* background-size: cover; */
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-repeat: repeat;
 	opacity: 0.95;
 	min-height: 100%;
 }
@@ -213,10 +212,6 @@ ul li {
 	}
 	.btn-schedule {
 		margin-right: 50px;
-	}
-	.main-container {
-		background-size: cover;
-		background-repeat: no-repeat;
 	}
 	.map-container {
 		height: 20em;
