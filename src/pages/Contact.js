@@ -9,9 +9,10 @@ function Contact() {
       <div className="white-contain">
         <span className="subtitle">Leave us a message!</span>
         <form name="contact" action="POST" data-netlify="true">
-          <input type="text" name="name" className="input" placeholder="Your name" required></input>
-          <input type="text" name="email" className="input" placeholder="Your email" required></input>
-          <input type="text" name="subject" className="input" placeholder="Subject" required></input>
+          <input type="hidden" name="form-name" value="contact" /> 
+          <input type="text" name="name" className="input" placeholder="Your name" required />
+          <input type="text" name="email" className="input" placeholder="Your email" required />
+          <input type="text" name="subject" className="input" placeholder="Subject" required />
           <textarea name="message" className="input message-box" placeholder="Your message" required></textarea>
           <button type="submit" name="submit" className="btn-black btn-submit">SUBMIT</button>
         </form>
