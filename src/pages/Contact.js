@@ -8,7 +8,7 @@ function Contact() {
       </div>
       <div className="white-contain">
         <span className="subtitle">Leave us a message!</span>
-        <form name="contact" action="POST" data-netlify="true">
+        <form name="contact" method="post" netlify netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" /> 
           <input type="text" name="name" className="input" placeholder="Your name" required />
           <input type="text" name="email" className="input" placeholder="Your email" required />
