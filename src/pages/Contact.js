@@ -8,7 +8,7 @@ function Contact() {
       </div>
       <div className="white-contain">
         <span className="subtitle">Leave us a message!</span>
-        <form method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true">
           <input type="text" name="name" className="input" placeholder="Your name" required></input>
           <input type="text" name="email" className="input" placeholder="Your email" required></input>
           <input type="text" name="subject" className="input" placeholder="Subject" required></input>
