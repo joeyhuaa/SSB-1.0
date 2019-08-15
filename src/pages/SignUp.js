@@ -52,7 +52,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-black btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49640" target="_blank"><button className="btn-black btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 			<div className="contain">
@@ -66,7 +66,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-white btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49641" target="_blank"><button className="btn-white btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 		</div>
