@@ -10,7 +10,7 @@ class News extends React.Component {
         </div>
         <div className="white-contain">
           <span className="title">Read our blog posts!</span>
-          <iframe height="300px" frameBorder="0" src="https://medium.com/@joeyhua/the-i-in-team-b5f1e9a9ec0c"></iframe>
+          <iframe width="100%" height="300px" frameBorder="0" src="https://medium.com/@joeyhua/the-i-in-team-b5f1e9a9ec0c"></iframe>
         </div>
       </div>
     )
