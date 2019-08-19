@@ -16,7 +16,25 @@ function Home() {
 			<div className="contain">
 				<span className="subtitle" style={{color:"whitesmoke"}}>Weekday and Weekend Classes, Year-Round!</span>
 				<span className="center-text">33955 Emilia Ln, Fremont, CA 94555</span>
-				{/* <div class="map-container"><MyMap /></div> */}
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							{/* <div class="map-container"><MyMap /></div> */}
+							<img class="d-block w-100" src="./img/court.jpg" alt="First slide"></img>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="..." alt="Second slide"></img>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	)
