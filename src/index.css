@@ -204,6 +204,9 @@ ul li {
 .message-box {
 	height: 10em;
 }
+.blog {
+	width: 100%;
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 1000px) {

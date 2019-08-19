@@ -16,7 +16,7 @@ function Home() {
 			<div className="contain">
 				<span className="subtitle" style={{color:"whitesmoke"}}>Weekday and Weekend Classes, Year-Round!</span>
 				<span className="center-text">33955 Emilia Ln, Fremont, CA 94555</span>
-				<div class="map-container"><MyMap /></div>
+				{/* <div class="map-container"><MyMap /></div> */}
 			</div>
 		</div>
 	)
