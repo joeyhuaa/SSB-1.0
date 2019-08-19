@@ -1,5 +1,4 @@
-import React from "react"
-import MyMap from '../components/MyMap.js'
+import React from "react";
 
 function Home() {
   return (
@@ -14,16 +13,34 @@ function Home() {
 				<video className="video" controls src="./vid/ssb-1.mp4"></video>	
 			</div>
 			<div className="contain">
-				<span className="subtitle" style={{color:"whitesmoke"}}>Weekday and Weekend Classes, Year-Round!</span>
-				<span className="center-text">33955 Emilia Ln, Fremont, CA 94555</span>
-				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<span className="title">Weekday and Weekend Classes, Year-Round!</span>
+				<span className="subtitle" style={{marginTop:"50px"}}>Our Locations</span>
+				<span className="center-text blurb">Ardenwood Elementary — 33955 Emilia Ln, Fremont, CA 94555</span>
+				<span className="center-text">•</span>
+				<span className="center-text blurb">John F. Kennedy Elementary — 35430 Blackburn Dr, Newark, CA 94560</span>
+				{/* <div class="map-container"><MyMap /></div> */}
+			</div>
+			<div className="white-contain">
+				<div className="title">See us in action!</div>
+				<div id="carouselExampleControls" class="carousel slide photo-carousel" data-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							{/* <div class="map-container"><MyMap /></div> */}
-							<img class="d-block w-100" src="./img/court.jpg" alt="First slide"></img>
+							<img class="d-block w-100" src="./img/mike-hug.jpg"></img>
 						</div>
 						<div class="carousel-item">
-							<img class="d-block w-100" src="..." alt="Second slide"></img>
+							<img class="d-block w-100" src="./img/indoor-circle.jpg"></img>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/mike-tj-indoor.jpg"></img>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/outdoor1.jpg"></img>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/outdoor2.jpg"></img>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/outdoor3.jpg"></img>
 						</div>
 					</div>
 					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
