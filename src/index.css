@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo|Beth+Ellen|Blinker|Crimson+Pro|Dosis|Farro|Fira+Sans|Grenze|Heebo|Inconsolata|Lato|Lora|Merriweather|Montserrat|Muli|Nanum+Gothic|Noto+Sans|Noto+Sans+JP|Noto+Sans+KR|Noto+Serif|Nunito|Open+Sans+Condensed:300|Oswald|Oxygen|PT+Sans|PT+Sans+Narrow|PT+Serif|Playfair+Display|Quicksand|Red+Hat+Display|Red+Hat+Text|Roboto|Roboto+Condensed|Roboto+Slab|Rubik|Saira+Stencil+One|Slabo+27px|Titillium+Web|Ubuntu|Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Finger+Paint|Love+Ya+Like+A+Sister|Blinker|Montserrat|Special+Elite&display=swap");
 * {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -37,6 +37,14 @@ p {
 .social-media {
 	margin-right: 2em;
 }
+.yelp:hover {
+	filter: drop-shadow(1px 1px 10px #00ffff) invert(100%);
+	transition: filter 200ms, color 200ms;
+}
+.fb:hover {
+	filter: drop-shadow(1px 1px 10px #ff8700) invert(100%);
+	transition: filter 200ms, color 200ms;
+}
 .map-container {
 	height: 7.5em;
 	display: block;
@@ -55,6 +63,9 @@ p {
 	margin: 2em auto 7em auto;
 	padding: 15em 15% 15em 15%;
 }
+.nav-link {
+	font-family: 'Special Elite', cursive;
+}
 .main-container {
 	padding-top: 5em;
 	padding-bottom: 50em;
@@ -69,8 +80,8 @@ p {
 	min-height: 100%;
 }
 .main-title {
-	font-family: 'Montserrat900', sans-serif;
-	font-size: 1.5em;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.75em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
@@ -79,8 +90,8 @@ p {
 	letter-spacing: 0.05em;
 }
 .title {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.25em;
 	font-weight: bold;
 	text-align: center;
 	display: block;
@@ -92,6 +103,7 @@ p {
 .subtitle {
 	color: #a3a3c2;
 	font-family: 'Montserrat', sans-serif;
+	font-family: 'Love Ya Like A Sister', cursive;
 	font-size: 1em;
 	font-weight: bold;
 	text-align: center;
@@ -148,8 +160,10 @@ p {
 }
 .btn-white, .btn-black {
 	font-family: 'Blinker', sans-serif;
+	font-family: 'Finger Paint', cursive;
 	text-align: center;
-	border-radius: 2.5px;
+	border-radius: 50px;
+	border-width: 2px;
 	background-color: transparent;
 	transition: background-color 200ms, color 200ms;
 }
@@ -204,6 +218,7 @@ ul li {
 .message-box {
 	height: 10em;
 }
+
 
 /* MEDIA QUERIES */
 @media (min-width: 1000px) {

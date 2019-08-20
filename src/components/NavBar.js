@@ -18,18 +18,16 @@ function NavBar() {
 						<li className="nav-item"><Link to='/' className="nav-link">Home</Link></li>
 						<li className="nav-item"><Link to='/about' className="nav-link">About</Link></li>
 						<li className="nav-item"><Link to='/signup' className="nav-link">Sign Up</Link></li>
+						<li className="nav-item"><Link to='/news' className="nav-link">News</Link></li>
 						<li className="nav-item"><Link to='/promo' className="nav-link">Promotions</Link></li>
 						<li className="nav-item"><Link to='/terms' className="nav-link">Terms</Link></li>
-						{/* <li className="nav-item"><Link to='/updates' className="nav-link">Updates</Link></li> */}
-						<li className="nav-item"><Link to='/news' className="nav-link">News</Link></li>
 						<li className="nav-item"><Link to ='/contact' className="nav-link">Contact</Link></li>
 					</ul>
-					<a href="https://www.facebook.com/ssb.basketball/" target="_blank"><img src="./img/fb-bw.jpg" width="40" height="40" className="social-media"></img></a>
-					<a href="https://www.yelp.com/biz/ssb-basketball-academy-fremont-3" target="_blank"><img src="./img/yelp-bw.png" width="40" height="40" className="social-media"></img></a>
+					<a href="https://www.facebook.com/ssb.basketball/" target="_blank"><img src="./img/fb-bw.jpg" width="40" height="40" className="social-media fb"></img></a>
+					<a href="https://www.yelp.com/biz/ssb-basketball-academy-fremont-3" target="_blank"><img src="./img/yelp-bw.png" width="40" height="40" className="social-media yelp"></img></a>
 				</div>
 			</nav>  
 		</div>
 	)
 }
-
 export default NavBar
