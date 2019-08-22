@@ -4,9 +4,10 @@ function Home() {
   return (
 		<div className="main-container">
 			<div className="contain">
-				<span className="main-title" style={{margin:"0", padding:"0"}}>SUPER SPLASH BROS</span> 
+				{/* <span className="main-title" style={{margin:"0", padding:"0"}}>SUPER SPLASH BROS</span> 
 				<span className="title" style={{margin:"0", padding:"10px"}}>BASKETBALL ACADEMY</span>
-				<span className="subtitle" style={{marginTop:"10px"}}>where learning feels like playing</span>
+				<span className="subtitle" style={{marginTop:"10px"}}>where learning feels like playing</span> */}
+				<img src="./img/ssb-logo-new.png" className="main-logo"></img>
 			</div>
 			<div className="white-contain">
 				<span className="title">See it for yourself!</span>

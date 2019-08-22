@@ -21,11 +21,22 @@ p {
 	text-align: center;
 	display: block;
 }
+.main-logo {
+	width: 600px;
+	display: block;
+	margin: auto;
+}
 .logo {
 	width: 70px;
 	height: 40px;
 	display: none;
+	transition: filter 200ms, filter 200ms;
 }
+.logo:hover {
+	filter: drop-shadow(1px 1px 3px #ff8700);
+	transition: filter 200ms, filter 200ms;
+}
+
 .super-splash-bros {
 	height: 45px;
 	width: 250px;
@@ -37,13 +48,16 @@ p {
 .social-media {
 	margin-right: 2em;
 }
+.yelp, .fb {
+	transition: filter 200ms, filter 200ms;
+}
 .yelp:hover {
-	filter: drop-shadow(1px 1px 10px #00ffff) invert(100%);
-	transition: filter 200ms, color 200ms;
+	filter: drop-shadow(1px 1px 3px #00ffff) invert(100%);
+	transition: filter 200ms, filter 200ms;
 }
 .fb:hover {
-	filter: drop-shadow(1px 1px 10px #ff8700) invert(100%);
-	transition: filter 200ms, color 200ms;
+	filter: drop-shadow(1px 1px 3px #ff8700) invert(100%);
+	transition: filter 200ms, filter 200ms;
 }
 .map-container {
 	height: 7.5em;
@@ -82,7 +96,7 @@ p {
 .main-title {
 	font-family: 'Love Ya Like A Sister', cursive;
 	font-size: 1.75em;
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-align: center;
 	display: block;
 	line-height: 1;
