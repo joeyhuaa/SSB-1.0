@@ -10,7 +10,7 @@ function SignUp() {
 				<span className="title" style={{margin:"0"}}>Beginner and Intermediate classes</span>
 				<span className="title">for ages <span style={{color:"#a3a3c2"}}>5-13</span></span>
 				<span className="title">Find a class time that works for you!</span>
-				<a href="https://app.punchpass.net/org/3239/classes" target="_blank"><button className="btn-black btn-schedule">OUR SCHEDULE</button></a>
+				<a href="https://app.punchpass.net/org/3239/classes" target="_blank"><button className="btn-black-outline btn-schedule">OUR SCHEDULE</button></a>
 			</div>
 			<div className="contain">
 				<span className="title" style={{marginTop:"5em"}}>Browse our registration plans below!</span>
@@ -25,7 +25,7 @@ function SignUp() {
 					<li className="info-title list-blurb">Included:</li>
 					<li className="list-blurb">x1 Class Per Week ($25 each)</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49512" target="_blank"><button className="btn-black btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49512" target="_blank"><button className="btn-black-outline btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 			<div className="contain">
@@ -38,7 +38,7 @@ function SignUp() {
 					<li className="list-blurb">x2 Classes Per Week ($22.50 each)</li>
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-white btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49513" target="_blank"><button className="btn-white-outline btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 			<div className="white-contain">
@@ -52,7 +52,7 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49640" target="_blank"><button className="btn-black btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49640" target="_blank"><button className="btn-black-outline btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 			<div className="contain">
@@ -66,11 +66,10 @@ function SignUp() {
 					<li className="list-blurb">x1 SSB Achievements Journal</li>
 					<li className="list-blurb">x1 SSB T-Shirt</li>
 					<li className="list-blurb">+ Personalized training advice</li>
-					<a href="https://app.punchpass.com/org/3239/passes/49641" target="_blank"><button className="btn-white btn-buy">REGISTER NOW</button></a>
+					<a href="https://app.punchpass.com/org/3239/passes/49641" target="_blank"><button className="btn-white-outline btn-buy">REGISTER NOW</button></a>
 				</ul>
 			</div>
 		</div>
 	)
 }
-
 export default SignUp

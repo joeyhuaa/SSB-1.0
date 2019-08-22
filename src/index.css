@@ -21,11 +21,6 @@ p {
 	text-align: center;
 	display: block;
 }
-.main-logo {
-	width: 600px;
-	display: block;
-	margin: auto;
-}
 .logo {
 	width: 70px;
 	height: 40px;
@@ -36,7 +31,6 @@ p {
 	filter: drop-shadow(1px 1px 3px #ff8700);
 	transition: filter 200ms, filter 200ms;
 }
-
 .super-splash-bros {
 	height: 45px;
 	width: 250px;
@@ -64,33 +58,77 @@ p {
 	display: block;
 	margin: 1em 3em 0 -1em; 
 }
+#home-contain {
+	position: relative;
+}
+#home-video {
+	width: 100%;
+	filter: brightness(75%);
+	display: block;
+	z-index: 0;
+}
+#home-title {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.5em;
+	color: white;
+	position: absolute;
+	top: 25%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-subtitle {
+	font-size: .75em;
+	color: white;
+	position: absolute;
+	top: 35%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-subtitle-2 {
+	font-size: .75em;
+	color: white;
+	position: absolute;
+	top: 45%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-register-btn {
+	position: absolute;
+	top: 55%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+	float: right;
+}
+#home-logo {
+	width: 500px;
+	display: block;
+	margin: auto;
+	margin-bottom: 3em;
+}
 .contain {
 	color: whitesmoke;
 	width: 70%;
 	display: block;
-	margin: 15em auto 20em auto;
+	margin: 5em auto 7em auto;
 }
 .white-contain {
 	background-color: whitesmoke;
 	color: black;
 	display: block;
 	margin: 2em auto 7em auto;
-	padding: 15em 15% 15em 15%;
+	padding: 5% 15%;
 }
 .nav-link {
 	font-family: 'Special Elite', cursive;
 }
 .main-container {
+	margin: 0;
 	padding-top: 5em;
 	padding-bottom: 50em;
 	height: 100%;
 	background-image: url(court.jpg);
-	background-color: #3939ac;
+	/* background-color: #3939ac; */
+	background-color: #863232;
 	background-blend-mode: color;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	opacity: 0.95;
 	min-height: 100%;
 }
 .main-title {
@@ -111,7 +149,6 @@ p {
 	display: block;
 	line-height: 1;
 	margin-bottom: 1em;
-	padding-top: 5%;
 	letter-spacing: 0.05em;
 }
 .subtitle {
@@ -137,11 +174,6 @@ p {
 .vert-container {
 	padding: 1em 0;
 }
-.video {
-	width: 100%;
-	display: block;
-	margin: 1em auto;
-}
 .about-img, .blurb {
 	width: 90%;
 	display: block;
@@ -164,15 +196,24 @@ p {
 .first {
 	border: none;
 }
-.btn-white {
-	color: #d1d1e0;
-	border-color: #d1d1e0;
+#home-register-btn {
+	color: white;
+	background-color: #23caca;
+	border-color: #23caca;
+	border-radius: 50px;
+	height: 3em;
+	padding: 0 1em;
+	transition: background-color 200ms, color 200ms;
 }
-.btn-black {
+.btn-white-outline {
+	color: whitesmoke;
+	border-color: whitesmoke;
+}
+.btn-black-outline {
 	color: black;
 	border-color: black;
 }
-.btn-white, .btn-black {
+.btn-white-outline, .btn-black-outline {
 	font-family: 'Blinker', sans-serif;
 	font-family: 'Finger Paint', cursive;
 	text-align: center;
@@ -181,13 +222,13 @@ p {
 	background-color: transparent;
 	transition: background-color 200ms, color 200ms;
 }
-.btn-white:hover {
+.btn-white-outline:hover {
 	background-color: whitesmoke;
 	border-color: whitesmoke;
 	color: black;
 	cursor: pointer; 
 }
-.btn-black:hover {
+.btn-black-outline:hover {
 	background-color: black;
 	border-color: black;
 	color: white;
@@ -209,6 +250,7 @@ p {
 	display: block;
 	margin: auto;
 }
+#home-register-btn:hover,
 .btn-buy:hover {
 	background-color: #ff66ff;
 	border-color: #ff66ff;
@@ -244,6 +286,13 @@ ul li {
 	}
 }
 @media (min-width: 900px) {
+	#home-title {
+		font-size: 2em;
+	}
+	#home-subtitle,
+	#home-subtitle-2 {
+		font-size: 1em;
+	}
 	.btn-schedule,
 	.btn-buy,
 	.btn-submit {
