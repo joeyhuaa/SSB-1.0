@@ -115,14 +115,14 @@ p {
 }
 .contain {
 	color: whitesmoke;
-	width: 70%;
+	/* width: 70%; */
 	display: block;
 	margin: 5em auto 7em auto;
-	padding: 5%;
+	padding: 20% 15%;
 }
 .white-contain {
-	background-color: whitesmoke;
 	color: black;
+	background-color: whitesmoke;
 	display: block;
 	margin: 2em auto 7em auto;
 	padding: 20% 15%;
