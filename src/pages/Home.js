@@ -1,21 +1,13 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import HomeVideo from "../components/HomeVideo"
 
 function Home() {
   return (
 		<div>
-			<div id="home-contain">
-				<span id="home-title">SUPER SPLASH BROS</span>
-				<span id="home-subtitle">BASKETBALL ACADEMY</span>
-				<span id="home-subtitle-2">WHERE LEARNING FEELS LIKE PLAYING</span>
-				<Link to="/signup"><button id="home-register-btn" className="btn-buy">JOIN US NOW!</button></Link>
-				<video id="home-video" autoplay="true" loop muted>
-					<source src="./vid/ssb-2.mov" />
-				</video> 
-			</div>
+			<HomeVideo />
 			<div className="main-container">
 				<div className="contain">
-					<img src="./img/ssb-logo-smash.png" id="home-logo"></img>
+					<img src="../img/ssb-logo-water.png" id="home-logo"></img>
 					<span className="title">Weekday and Weekend Classes, Year-Round!</span>
 					<span className="subtitle" style={{marginTop:"50px"}}>Our Locations</span>
 					<span className="center-text blurb">Ardenwood Elementary — 33955 Emilia Ln, Fremont, CA 94555</span>
@@ -34,9 +26,6 @@ function Home() {
 							</div>
 							<div class="carousel-item">
 								<img class="d-block w-100" src="./img/mike-tj-indoor.jpg"></img>
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="./img/outdoor1.jpg"></img>
 							</div>
 							<div class="carousel-item">
 								<img class="d-block w-100" src="./img/outdoor2.jpg"></img>
