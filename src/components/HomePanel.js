@@ -2,13 +2,19 @@ import React from 'react'
 import Photos from "../components/Photos"
 import Testimonials from "../components/Testimonials"
 
+const Main = () => {
+  return (
+    <div className="contain">
+      <img src="../img/ssb-logo-water.png" id="home-logo"></img>
+      <span className="title">We are a basketball academy dedicated to skill development while fostering a true enjoyment of the game. We promise an unforgettable, enriching experience for your child!</span>
+    </div>
+  )
+}
+
 function HomePanel() {
   return (
     <div className="main-container">
-      <div className="contain">
-        <img src="../img/ssb-logo-water.png" id="home-logo"></img>
-        <span className="title">We are a basketball academy dedicated to skill development while fostering a true enjoyment of the game. We promise an unforgettable, enriching experience for your child!</span>
-      </div>
+      <Main />
       <Testimonials />
       <div className="contain">
         <span className="title">Weekday and Weekend Classes, Year-Round!</span>
