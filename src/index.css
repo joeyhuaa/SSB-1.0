@@ -59,7 +59,7 @@ p {
 	margin: 1em 3em 0 -1em; 
 }
 #home-contain {
-	margin: 0;
+	position: relative;
 }
 
 @media (max-width: 700px) {
@@ -73,8 +73,35 @@ p {
 	filter: brightness(75%);
 	display: block;
 	z-index: 0;
+}
+#home-title {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1.5em;
+	color: white;
 	position: absolute;
-	top: 0;
+	top: 25%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-subtitle {
+	font-size: .75em;
+	color: white;
+	position: absolute;
+	top: 37%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-subtitle-2 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	top: 50%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+}
+#home-register-btn {
+	position: absolute;
+	top: 60%; right: 0; bottom: 0; left: 10%;
+	z-index: 10;
+	float: right;
 }
 #home-logo {
 	width: 85%;
@@ -152,44 +179,6 @@ p {
 .info {
 	padding-left: 10px;
 }
-
-.grid-container {
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: repeat(4, 25%);
-	margin-top: 10em;
-	margin-left: 10em;
-	max-height: 15em;
-}
-
-#home-title {
-	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: 1.5em;
-	color: white;
-	z-index: 10;
-}
-#home-subtitle {
-	font-size: .75em;
-	color: white;
-	z-index: 10;
-}
-#home-subtitle-2 {
-	font-family: 'Love Ya Like A Sister', cursive;
-	font-size: .75em;
-	color: white;
-	z-index: 10;
-}
-#home-register-btn {
-	z-index: 10;
-	color: white;
-	background-color: #23caca;
-	border-color: #23caca;
-	border-radius: 50px;
-	height: 3em;
-	padding: 0 1em;
-	transition: background-color 200ms, color 200ms;
-}
-
 .vert-container {
 	padding: 1em 0;
 }
@@ -215,7 +204,15 @@ p {
 .first {
 	border: none;
 }
-
+#home-register-btn {
+	color: white;
+	background-color: #23caca;
+	border-color: #23caca;
+	border-radius: 50px;
+	height: 3em;
+	padding: 0 1em;
+	transition: background-color 200ms, color 200ms;
+}
 .btn-white-outline {
 	color: whitesmoke;
 	border-color: whitesmoke;
@@ -299,13 +296,14 @@ ul li {
 @media (min-width: 900px) {
 	#home-title {
 		font-size: 3em;
-		margin-bottom: 10px;
+		margin-bottom: 5px;
 	}
 	#home-subtitle {
 		font-size: 1em;
+		bottom: 35%;
 	}
 	#home-subtitle-2 {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 	#home-logo {
 		width: 60%;
