@@ -79,24 +79,24 @@ p {
 	font-size: .75em;
 	color: white;
 	position: absolute;
-	top: 35%; right: 0; bottom: 0; left: 10%;
+	top: 40%; right: 0; bottom: 0; left: 10%;
 	z-index: 10;
 }
 #home-subtitle-2 {
 	font-size: .75em;
 	color: white;
 	position: absolute;
-	top: 45%; right: 0; bottom: 0; left: 10%;
+	top: 50%; right: 0; bottom: 0; left: 10%;
 	z-index: 10;
 }
 #home-register-btn {
 	position: absolute;
-	top: 55%; right: 0; bottom: 0; left: 10%;
+	top: 60%; right: 0; bottom: 0; left: 10%;
 	z-index: 10;
 	float: right;
 }
 #home-logo {
-	width: 500px;
+	width: 60%;
 	display: block;
 	margin: auto;
 	margin-bottom: 3em;
@@ -288,10 +288,12 @@ ul li {
 @media (min-width: 900px) {
 	#home-title {
 		font-size: 2em;
+		margin-bottom: 5px;
 	}
 	#home-subtitle,
 	#home-subtitle-2 {
 		font-size: 1em;
+		bottom: 35%;
 	}
 	.btn-schedule,
 	.btn-buy,
@@ -332,4 +334,3 @@ ul li {
 		width: 50%;
 	}
 }
-

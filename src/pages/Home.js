@@ -15,7 +15,7 @@ function Home() {
 			</div>
 			<div className="main-container">
 				<div className="contain">
-					<img src="./img/ssb-logo-new.png" id="home-logo"></img>
+					<img src="./img/ssb-logo-smash.png" id="home-logo"></img>
 					<span className="title">Weekday and Weekend Classes, Year-Round!</span>
 					<span className="subtitle" style={{marginTop:"50px"}}>Our Locations</span>
 					<span className="center-text blurb">Ardenwood Elementary — 33955 Emilia Ln, Fremont, CA 94555</span>
