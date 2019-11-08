@@ -27,8 +27,15 @@ function NavBar() {
 						<li className="nav-item"><Link to='/terms' className="nav-link">Terms</Link></li>
 						<li className="nav-item"><Link to ='/contact' className="nav-link">Contact</Link></li>
 					</ul>
-					<a href="https://www.facebook.com/ssb.basketball/" target="_blank"><img src="./img/fb-bw.jpg" width="40" height="40" className="social-media fb"></img></a>
-					<a href="https://www.yelp.com/biz/ssb-basketball-academy-fremont-3" target="_blank"><img src="./img/yelp-bw.png" width="40" height="40" className="social-media yelp"></img></a>
+					<a href="https://www.facebook.com/ssb.basketball/" target="_blank">
+						<img src="./img/fb-bw.jpg" width="40" height="40" className="social-media fb"></img>
+					</a>
+					<a href="https://www.instagram.com/ssb.basketball/" target="_blank">
+						<img src="./img/ig-bw.png" width="40" height="40" className="social-media ig"></img>
+					</a>
+					<a href="https://www.yelp.com/biz/ssb-basketball-academy-fremont-3" target="_blank">
+						<img src="./img/yelp-bw.png" width="40" height="40" className="social-media yelp"></img>
+					</a>
 				</div>
 			</nav>  
 		</div>

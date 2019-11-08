@@ -42,7 +42,7 @@ p {
 .social-media {
 	margin-right: 2em;
 }
-.yelp, .fb {
+.yelp, .fb, .ig {
 	transition: filter 200ms, filter 200ms;
 }
 .yelp:hover {
@@ -51,6 +51,10 @@ p {
 }
 .fb:hover {
 	filter: drop-shadow(1px 1px 3px #ff8700) invert(100%);
+	transition: filter 200ms, filter 200ms;
+}
+.ig:hover {
+	filter: drop-shadow(1px 1px 3px #40ff00) invert(100%);
 	transition: filter 200ms, filter 200ms;
 }
 .map-container {
